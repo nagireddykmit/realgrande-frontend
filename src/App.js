@@ -40,7 +40,7 @@ useEffect( ()=>{
   async function getHousesInfo(){
       try {
         // const response = await axios.get('http://localhost:3002/');
-        console.log(process.env.REACT_APP_LINKTOBACKEND+'/race')
+        // console.log(process.env.REACT_APP_LINKTOBACKEND+'/race')
         const response = await axios.get(process.env.REACT_APP_LINKTOBACKEND);
         let data = await response.data;
         //console.log(data);
